@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bebas+Neue&family=Roboto&family=Lato');
+
+.mainContainer{
+    background-image: url('../../img/Home_space.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 130px;
+    min-height: 100vh;
+}
+
+.image {
+    width: 45%;
+    height: 85%;
+    margin: 20px;
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainTitle {
+    font-family: "Bungee Shade", sans-ser;
+    /* font-weight: normal; */
+    color: white;
+    font-size: 2.3rem;
+    text-align: center;
+    margin: 1%;
+}
+
+.title {
+    font-family: "Bebas Neue", sans-ser;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: normal;
+    display: block;
+    text-align: center;
+    padding: 1%;
+    /* justify-content: center;
+    flex-direction: column; */
+}
+
+.content {
+    font-family: "Lato", sans-ser;
+    font-size: 1.05rem;
+    color: white;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.button {
+    background-color: transparent;
+    color: white;
+    font-family: "Bebas Neue", sans-ser;
+    font-size: 1.2rem;
+    padding: 0.3rem 0.7rem;
+    border: solid 1px white;
+    border-radius: 10px;
+    margin: 13px;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    color: #fff;
+    outline: 0;
+    background-color: rgba(202, 188, 255, 0.5);
+    margin-bottom: 10%;
+  };

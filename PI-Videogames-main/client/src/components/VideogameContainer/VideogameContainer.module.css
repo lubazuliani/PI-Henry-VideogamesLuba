@@ -1,0 +1,17 @@
+/* .container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    gap: 1em;
+} */
+
+
+.showing{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-evenly;
+    width: 99%;
+}

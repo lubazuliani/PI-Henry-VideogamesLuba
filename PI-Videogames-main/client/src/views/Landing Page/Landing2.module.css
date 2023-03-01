@@ -1,0 +1,61 @@
+/*Container*/  
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bebas+Neue&family=Roboto&family=Lato');
+
+
+.body {
+    background-image: url('../../img/Landing_platform.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    justify-content: top-centered;
+    align-items: center;
+    height: 100vh;
+    background-position: center bottom;
+}               
+
+
+.textContainer {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;    
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.textContainer p {
+    font-family: "Bungee Shade", sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #f9f3f4; 
+}
+
+.navLink {
+    margin-top: -50px;
+}
+
+.button {
+    background-color: transparent;
+    color: white;
+    font-family: "Bebas Neue", sans-ser;
+    font-size: 1.4rem;
+    padding: 0.6rem 1.8rem;
+    border: solid 2px white;
+    border-radius: 10px;
+    margin-top: -90px;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    /* background-color: #5b0879; */
+    background-color: rgba(91, 8, 121, 0.7);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.7);
+    /* box-shadow: 0 0 40px 40px #9761ae inset, 0 0 0 0 #9761ae; */
+}
+
+/* #5b0879; */

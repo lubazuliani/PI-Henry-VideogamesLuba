@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bebas+Neue&family=Roboto&family=Lato');
+
+.pagination {
+    margin-top: 1.5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.1rem 1rem;
+    border-radius: 0.4em;
+    /* background-color: rgba(0, 0, 0, 0.108); */
+}
+
+.button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Bebas Neue", sans-serif;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 0.3rem 0.7rem;
+}
+
+.button:hover {
+    background-color: rgba(202, 188, 255, 0.5);
+    border-radius: 7px;
+    /* border: solid 1px white; */
+}
+
+.pagination p {
+    /* text-shadow: 0 0 5px #fff; */
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.none {
+    display: none
+}

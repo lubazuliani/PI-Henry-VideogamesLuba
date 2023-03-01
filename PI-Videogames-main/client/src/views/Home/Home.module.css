@@ -1,0 +1,110 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Bebas+Neue&family=Roboto&family=Lato');
+
+  .body {
+      background-image: url('../../img/Home_space.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      /* height: 250vh; */
+      display: flex;
+      flex-direction: column;
+      align-items:center; 
+      /* justify-content:space-evenly; */
+      /*  width: 100vw; */
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
+
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* align-content: center; */
+    font-family: 'Bungee Shade', sans-serif;
+    font-size: 3.3rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  .filter {
+    width: 480px;
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: white;
+  }
+
+  .filter div {
+    width: 160px;
+    color: white;
+  }
+
+  .filter select {
+    width: 145px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: none;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+  }
+
+  .filter select:hover {  
+    background-color: rgba(202, 188, 255, 0.5);
+  } 
+
+  .filter select > option {
+    width: 145px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    /* background: none; */
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+  }
+
+  .filter select:hover > option {
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+  } 
+
+ /*  .filter option {
+    background: none;
+    cursor: pointer;
+  } */
+    
+  .button {
+    background-color: transparent;
+    color: white;
+    font-family: "Bebas Neue", sans-ser;
+    font-size: 1.2rem;
+    padding: 0.3rem 0.7rem;
+    border: solid 1px white;
+    border-radius: 10px;
+    margin: 13px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+
+  .button:hover {
+    color: #fff;
+    outline: 0;
+    transition: all 150ms ease-in-out;
+    background-color: rgba(202, 188, 255, 0.3);
+  }
+
+  .divVdg {
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    align-items:center;
+  }
