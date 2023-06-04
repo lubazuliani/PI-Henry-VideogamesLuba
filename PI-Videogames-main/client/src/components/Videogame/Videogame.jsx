@@ -20,7 +20,7 @@ const Videogame = ({id, image, name, genres }) => {
             <div className={style.text}>
               <h2 className={style.name}>{name}</h2>
               <NavLink to={`/videogames/${id}`} className={style.navLink}>
-              <img className={style.img} src={image} alt={name} />
+                <img className={style.img} src={image} alt={name} />
               </NavLink>
               <h2 className={style.genres}>Genres: {newGenres}</h2>
               {/* <NavLink to={`/videogames/${id}`} className={style.navLink}> See More Details </NavLink> */}
